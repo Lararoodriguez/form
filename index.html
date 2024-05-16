@@ -3,17 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formulario de Empleado</title>
+<title>Formulario Registro</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<h2>Formulario de Empleado</h2>
-<form id="employeeForm" onsubmit="return validateForm()">
-    <label for="nombre">Nombre:</label>
+    <div>
+      <img src="empleados.png" alt="iconoEmpleados">
+      <h2>Registro de empleados</h2>
+    </div>
+    
+    <form id="employeeForm" onsubmit="return validateForm()">
+    <label for="nombre">Nombre/s:</label>
     <input type="text" id="nombre" name="nombre" required><br>
 
-    <label for="apellido">Apellido:</label>
+    <label for="apellido">Apellido/s:</label>
     <input type="text" id="apellido" name="apellido" required><br>
 
     <label for="edad">Edad:</label>
@@ -34,16 +37,15 @@
         <span><input type="tel" id="numeroMovil" name="numeroMovil" pattern="[0-9]{4}-[0-9]{4}" placeholder="4567-8901" required></span>
     </div>
 
-
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required><br>
 
     <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
 
     <label for="genero">Género:</label>
     <select id="genero" name="genero" required>
-        <option value="">Seleccione</option>
+        <option value="">Seleccionar</option>
         <option value="masculino">Masculino</option>
         <option value="femenino">Femenino</option>
         <option value="otro">Otro</option>
@@ -55,10 +57,9 @@
     <label for="area">Área:</label>
     <input type="text" id="area" name="area" required><br>
 
-    <input type="submit" value="Enviar">
-</form>
+    <input type="submit" value="Registrarse">
+    </form>
 
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
