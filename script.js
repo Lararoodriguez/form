@@ -1,3 +1,11 @@
+function mostrarAlerta() {
+    alert("¡Hola bienvenid@! Ingresa con tu email y contraseña");
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    mostrarAlerta();
+});
+
 function validateForm() {
     var form = document.getElementById("employeeForm");
     var codigoAreaFijo = form.codigoAreaFijo.value;

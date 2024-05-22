@@ -1,11 +1,18 @@
+/* Estilos generales de la pagina del formulario */
+body {
+    background-image: url('gasometro.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
 /* Estilos generales del formulario */
 form {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #b35454;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #282be4;
 }
 
 /* Estilos para las etiquetas */
@@ -51,7 +58,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #2b1bc0;
+    background-color: #1e2fc7;
 }
 
 /* Estilos para los mensajes de error */
