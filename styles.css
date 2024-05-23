@@ -1,11 +1,11 @@
-/* Estilos generales de la pagina del formulario */
+/* Estilo fondo del formulario */
 body {
-    background-image: url('gasometro.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-image: url('gasometro.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
-/* Estilos generales del formulario */
+/* Estilo general del formulario */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -44,10 +44,10 @@ textarea {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+    box-sizing: border-box;
 }
 
-/* Estilos para el botón de enviar */
+/* Estilos para el botón de registrarse */
 input[type="submit"] {
     background-color: #a13131;
     color: rgb(0, 0, 0);
@@ -59,10 +59,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #1e2fc7;
-}
-
-/* Estilos para los mensajes de error */
-.error {
-    color: red;
-    font-size: 12px;
 }
